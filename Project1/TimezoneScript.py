@@ -13,3 +13,6 @@ UIT = datetime.now(pytz.timezone(userIN))
 #This is us asking the user what timezone and then storing it
 print("The time in", (userIN), "is:", UIT.strftime("%Y:%m:%d %H:%M:%S %Z %z"))
 #Here we output the time in the timezone the user stated
+
+#ATTENTION
+#If you run this in IDLE you need to install pytz so for easier use https://www.online-python.com/ to run the script without having to install module. 
