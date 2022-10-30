@@ -9,16 +9,14 @@ import tkinter.messagebox
 
 i = input("Enter time you need to count down from: ")
 message = input("Enter a message you wish for the alarm to remind you with: ")
-def countclock(i):
+def timerclock(i):
     while i:
         mins, secs = divmod(i, 60)
-        timer = '{:02d}:{:02d}'.format(mins, secs)
-        print(timer, end="\r")
+        actualtimer = '{:02d}:{:02d}'.format(mins, secs)
+        print(actualtimer, end="\r")
         time.sleep(1)
         i -= 1
         if i == 0:
             print(message)
 
-
-
-countclock(int(i))
+timerclock(int(i))
