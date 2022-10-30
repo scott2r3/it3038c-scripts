@@ -5,10 +5,12 @@ from distutils.cmd import Command
 import time
 from tkinter import *
 import tkinter.messagebox
+#This is me importing the time stuff we need and for future updates the tkinter UI stuff.
 
 
 i = input("Enter time you need to count down from: ")
 message = input("Enter a message you wish for the alarm to remind you with: ")
+#These are my user input variables.
 def timerclock(i):
     while i:
         mins, secs = divmod(i, 60)
@@ -18,5 +20,7 @@ def timerclock(i):
         i -= 1
         if i == 0:
             print(message)
+#This is the actual program I only have it in minutes and seconds right now and will add hours and a UI in next version I think. 
 
 timerclock(int(i))
+#This calls the function I made essentially and runs the whole program.
