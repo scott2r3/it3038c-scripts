@@ -11,5 +11,6 @@ The script will open with a welcome message followed by a select set of options.
 
 ## Resources
 **I used two YouTube videos to help me complete this. They are listed below.**
+### Videos
 [Video 1],(https://www.youtube.com/watch?v=y9o-Uy0v43I) -This video helped me figure out how to do a Ceaser convert.
 [Video 2],(https://www.youtube.com/watch?v=yN0pkyrgpCQ) -Mr Johnson Computing gave me the main idea.
